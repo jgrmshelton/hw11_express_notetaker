@@ -1,0 +1,25 @@
+{
+  "name": "hw11_express_notetaker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgrmshelton/hw11_express_notetaker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jgrmshelton/hw11_express_notetaker/issues"
+  },
+  "homepage": "https://github.com/jgrmshelton/hw11_express_notetaker#readme",
+  "dependencies": {
+    "expess": "0.0.1-security",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}
