@@ -19,7 +19,8 @@
   "homepage": "https://github.com/jgrmshelton/hw11_express_notetaker#readme",
   "dependencies": {
     "expess": "0.0.1-security",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {}
 }
