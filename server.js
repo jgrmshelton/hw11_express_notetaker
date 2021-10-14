@@ -1,21 +1,15 @@
 const express = require('express');
-
-const app = express;
-
-const PORT = process.env.PORT || 5000;
-
-//Server
+const app = express();
+//app.listen - it will send to browser
+const PORT = process.env.PORT || 8080;
+// server?
 const server = require('http').Server(app);
-//router
 const router = require('./routes');
 
-//Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
-
-
+app.use(express.static('public'));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(router);
 
-server.listen(PORT, () => {});
+app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
